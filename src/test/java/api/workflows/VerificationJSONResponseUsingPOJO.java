@@ -10,7 +10,7 @@ import static core.api.modues.User.getUserResponse;
 
 public class VerificationJSONResponseUsingPOJO extends Master {
 
-    @Test(testName = "ValidationThroughPostPOJO",description = "verify post's attributes by using POJO classes", priority = 1,enabled = false)
+    @Test(testName = "ValidationThroughPostPOJO",description = "verify post's attributes by using POJO classes", priority = 1,enabled = true)
     public void validationOnPostResponse(){
         GetPostsPOJO[] posts = getPostResponse();
         for (GetPostsPOJO post:posts)
@@ -20,7 +20,7 @@ public class VerificationJSONResponseUsingPOJO extends Master {
     /**
      * Apply validations on user's attributes
      */
-    @Test(testName = "ValidationThroughUserPOJO",description = "verify user's attributes by using POJO classes", priority = 0,enabled = true)
+    @Test(testName = "ValidationThroughUserPOJO",description = "verify user's attributes by using POJO classes", priority = 0,enabled = false)
     public void validationOnUserResponse()throws Exception {
         GetUsersPOJO[] users=getUserResponse();
 
@@ -33,7 +33,7 @@ public class VerificationJSONResponseUsingPOJO extends Master {
         }
     }
 
-    @Test(testName = "ValidationThroughCommentPOJO",description = "verify comment's attributes by using POJO classes", priority = 2,enabled = false)
+    @Test(testName = "ValidationThroughCommentPOJO",description = "verify comment's attributes by using POJO classes", priority = 2,enabled = true)
     public void validationOnCommentResponse(){
         GetCommentsPOJO[] comments = getCommentResponse();
         for (GetCommentsPOJO comment:comments)

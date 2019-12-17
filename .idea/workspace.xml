@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f34f11ce-2e3f-4612-95b6-77bcfbbd2ff2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLogs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/workflows/VerificationJSONResponseUsingPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/workflows/VerificationJSONResponseUsingPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,24 +64,7 @@
       <recent name="D:\TestChallenge\src\test\Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.testng.xml">
-    <configuration name="D:/TestChallenge/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestChallenge" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.VerificationJSONResponseUsingPOJO.validationOnPostResponse">
     <configuration name="VerificationJSONResponseUsingPOJO (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestChallenge" />
       <extension name="coverage">
@@ -102,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerificationJSONResponseUsingPOJO" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerificationJSONResponseUsingPOJO.validationOnCommentResponse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestChallenge" />
       <extension name="coverage">
         <pattern>
@@ -113,9 +99,9 @@
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="PACKAGE_NAME" value="api.workflows" />
       <option name="MAIN_CLASS_NAME" value="api.workflows.VerificationJSONResponseUsingPOJO" />
-      <option name="METHOD_NAME" value="" />
+      <option name="METHOD_NAME" value="validationOnCommentResponse" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
@@ -137,6 +123,29 @@
       <option name="PACKAGE_NAME" value="api.workflows" />
       <option name="MAIN_CLASS_NAME" value="api.workflows.VerificationJSONResponseUsingPOJO" />
       <option name="METHOD_NAME" value="validationOnPostResponse" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerificationJSONResponseUsingPOJO.validationOnUserResponse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.workflows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="api.workflows" />
+      <option name="MAIN_CLASS_NAME" value="api.workflows.VerificationJSONResponseUsingPOJO" />
+      <option name="METHOD_NAME" value="validationOnUserResponse" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -183,18 +192,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.testng.xml" />
-      <item itemvalue="TestNG.D:/TestChallenge/testng.xml" />
-      <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO" />
-      <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.validationOnPostResponse" />
       <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO (1)" />
+      <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.validationOnUserResponse" />
+      <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.validationOnCommentResponse" />
+      <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.validationOnPostResponse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.validationOnPostResponse" />
+        <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.validationOnCommentResponse" />
+        <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.validationOnUserResponse" />
         <item itemvalue="TestNG.testng.xml" />
         <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO (1)" />
-        <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO" />
-        <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.validationOnPostResponse" />
-        <item itemvalue="TestNG.D:/TestChallenge/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576599772297</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="config.yml">
+      <created>1576600289893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576600289893</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -250,38 +266,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="config.yml" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="436" y="10" key="CommitChangelistDialog2" timestamp="1576599771205">
+    <state x="436" y="10" key="CommitChangelistDialog2" timestamp="1576600288606">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="436" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576599771205" />
+    <state x="436" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576600288606" />
     <state x="518" y="112" key="FileChooserDialogImpl" timestamp="1576597115240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="518" y="112" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576597115240" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1576599035614">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1576601802962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576599035614" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1576599035608">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576601802962" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1576601802961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576599035608" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1576599035608">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576601802961" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1576601802961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576599035608" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1576599035614">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576601802961" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1576601802962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576599035614" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576601802962" />
+    <state width="1493" height="303" key="GridCell.Tab.1.bottom" timestamp="1576601603083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="303" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576601603083" />
+    <state width="1493" height="303" key="GridCell.Tab.1.center" timestamp="1576601603083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="303" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1576601603083" />
+    <state width="1493" height="303" key="GridCell.Tab.1.left" timestamp="1576601603083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="303" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576601603083" />
+    <state width="1493" height="303" key="GridCell.Tab.1.right" timestamp="1576601603083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="303" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576601603083" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1576597185039">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576597185039" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1576599773877">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1576600291846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576599773877" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576600291846" />
     <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1576599473470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

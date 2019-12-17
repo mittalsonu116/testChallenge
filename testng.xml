@@ -7,12 +7,17 @@
     </test>
     <test name="CodingTest2" >
         <classes>
-            <class name="api.workflows.verifyUserPostComment" />
+            <class name="api.workflows.VerificationJSONResponseUsingPOJO" />
         </classes>
     </test>
     <test name="CodingTest3" >
         <classes>
             <class name="api.workflows.verifyJsonPlaceHolderResourceCount" />
+        </classes>
+    </test>
+    <test name="CodingTest4" >
+        <classes>
+            <class name="api.workflows.verifyUserPostComment" />
         </classes>
     </test>
 </suite>
