@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FirstSuite" parallel="none" thread-count="1">
+    <test name="CodingTest1" >
+        <classes>
+            <class name="api.workflows.variousUserFieldVerification" />
+        </classes>
+    </test>
+    <test name="CodingTest2" >
+        <classes>
+            <class name="api.workflows.verifyUserPostComment" />
+        </classes>
+    </test>
+    <test name="CodingTest3" >
+        <classes>
+            <class name="api.workflows.verifyJsonPlaceHolderResourceCount" />
+        </classes>
+    </test>
+</suite>

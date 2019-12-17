@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TestData>
+    <param key="UserCount" value="10"/>
+    <param key="PostCount" value="100"/>
+    <param key="CommentCount" value="500"/>
+    <param key="AlbumCount" value="100"/>
+    <param key="PhotoCount" value="5000"/>
+    <param key="TodoCount" value="200"/>
+</TestData>

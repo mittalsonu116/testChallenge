@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[phone number format checking completed...]]>
+    </line>
+    <line>
+      <![CDATA[zip code format checking completed...]]>
+    </line>
+  </reporter-output>
+  <suite name="FirstSuite" duration-ms="2940" started-at="2019-12-14T20:08:15Z" finished-at="2019-12-14T20:08:18Z">
+    <groups>
+    </groups>
+    <test name="CodingTest1" duration-ms="2940" started-at="2019-12-14T20:08:15Z" finished-at="2019-12-14T20:08:18Z">
+      <class name="api.workflows.variousUserFieldVerification">
+        <test-method status="PASS" signature="suiteSetup()[pri:0, instance:api.workflows.variousUserFieldVerification@2ff4f00f]" name="suiteSetup" is-config="true" duration-ms="964" started-at="2019-12-14T20:08:14Z" finished-at="2019-12-14T20:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:api.workflows.variousUserFieldVerification@2ff4f00f]" name="test" duration-ms="2919" started-at="2019-12-14T20:08:15Z" description="verify user&#039;s phone number format" finished-at="2019-12-14T20:08:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[phone number format checking completed...]]>
+            </line>
+            <line>
+              <![CDATA[zip code format checking completed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:api.workflows.variousUserFieldVerification@2ff4f00f]" name="aftertest" is-config="true" duration-ms="0" started-at="2019-12-14T20:08:18Z" finished-at="2019-12-14T20:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- api.workflows.variousUserFieldVerification -->
+    </test> <!-- CodingTest1 -->
+  </suite> <!-- FirstSuite -->
+</testng-results>
