@@ -25,6 +25,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1V79mD3ZsixU1OX7MaQpdWDrsy4" />
@@ -36,10 +41,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -217,42 +222,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="518" y="112" key="FileChooserDialogImpl" timestamp="1576594902186">
+    <state x="518" y="112" key="FileChooserDialogImpl" timestamp="1576597115240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="518" y="112" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576594902186" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1576594327989">
+    <state x="518" y="112" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576597115240" />
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1576599035614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576594327989" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1576594327988">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576599035614" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1576599035608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576594327988" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1576594327984">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576599035608" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1576599035608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576594327984" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1576594327988">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576599035608" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1576599035614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576594327988" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1576594914037">
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576599035614" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1576597185039">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576594914037" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1576595217594">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576597185039" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1576596886241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576595217594" />
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1576593448932">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576596886241" />
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1576599473470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576593448932" />
-    <state x="477" y="215" key="git4idea.merge.GitPullDialog" timestamp="1576594960878">
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576599473470" />
+    <state x="477" y="215" key="git4idea.merge.GitPullDialog" timestamp="1576596865617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1576594960878" />
+    <state x="477" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1576596865617" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestChallenge$verifyUserPostComment_postCommentVerification.ic" NAME="verifyUserPostComment.postCommentVerification Coverage Results" MODIFIED="1576301772815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
