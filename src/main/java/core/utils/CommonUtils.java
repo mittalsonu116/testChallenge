@@ -13,7 +13,7 @@ public class CommonUtils {
             for (String email : invalidEmails)
                 System.out.println(email + ": this email address has invalid format");
         } else {
-            System.out.println("All email address has valid format");
+            System.out.println("All email address have valid format");
         }
     }
 }

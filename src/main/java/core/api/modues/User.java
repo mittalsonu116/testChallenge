@@ -118,6 +118,20 @@ public class User extends Master {
     }
 
     /**
+     * Function to fetch all user id from user json list
+     * @return List<String>
+     */
+    public static List<String> getUserIDList(){
+        List<String> idList=new ArrayList<>();
+        Response resp=getUserApiResponse();
+        List<String> respList=resp.jsonPath().getList("$");
+        for(int i=0;i<respList.size();i++){
+            idList.add(resp.jsonPath().getString("id["+i+"]"));
+        }
+        return idList;
+    }
+
+    /**
      * Function to fetch response through POJO classes
      */
     public static GetUsersPOJO[] getUserResponse(){

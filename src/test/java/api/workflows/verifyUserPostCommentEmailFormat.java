@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class verifyUserPostComment extends Master {
+public class verifyUserPostCommentEmailFormat extends Master {
 
     private String user_id;
     private Set<String> post_ids;
@@ -21,7 +21,7 @@ public class verifyUserPostComment extends Master {
     /**
      * Using default constructor to parse test script xml file test data into hash-map reference
      */
-    public verifyUserPostComment(){
+    public verifyUserPostCommentEmailFormat(){
         super();
         testdata=getTestDataFromXML(this.getClass().getSimpleName());
     }
@@ -33,19 +33,19 @@ public class verifyUserPostComment extends Master {
          * Get user id corresponding to user name
          */
         user_id=getUserID(testdata.get("UserName"));
-        System.out.println(user_id);
+        System.out.println("User ID of User Name Samantha is: "+user_id);
 
         /**
          * Get all post id corresponding to user id
          */
         post_ids=getPostIDs(user_id);
-        System.out.println(post_ids);
+        System.out.println("Samantha user posts with post id(s): "+post_ids);
 
         /**
          * Get all comment id and email address corresponding to post id
          */
         comment_data=getCommentIDAndEmail(post_ids);
-        System.out.println(comment_data);
+        System.out.println("Samantha user's each post's corresponding comment id and comment email address(es) are :"+comment_data);
 
         /**
          * Validate correctness of email format

@@ -89,4 +89,32 @@ public class Comment extends Master {
         return new ReusableMethods(portalSpec).getByPOJO(EndPoints.COMMENT)
                 .as(GetCommentsPOJO[].class);
     }
+
+    /**
+     * Function to check uniqueness of comment id
+     */
+    public static boolean checkCommentIDUniqueness(GetCommentsPOJO[] comments){
+        boolean flag=false;
+        List<String> commentId= new ArrayList();
+        for (GetCommentsPOJO comment:comments)
+            commentId.add(comment.getId());
+        Set<String> idSet=new HashSet<>(commentId);
+        if(commentId.size()==idSet.size())
+            flag=true;
+        return flag;
+    }
+
+    /**
+     *
+     */
+    public static boolean comparePostIDInCommentResponse(GetCommentsPOJO[] comments,List<String> postID){
+        boolean flag=false;
+        Set<String> postId=new HashSet<>();
+        for (GetCommentsPOJO comment:comments)
+            postId.add(comment.getPostId());
+        List<String> postIdList=new ArrayList<>(postId);
+        if(postIdList.equals(postID));
+        flag=true;
+        return flag;
+    }
 }
