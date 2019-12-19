@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f34f11ce-2e3f-4612-95b6-77bcfbbd2ff2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLogs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestData/verifyUserPostComment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/verifyUserPostCommentEmailFormat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/api/modues/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/api/modues/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/api/modues/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/api/modues/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/api/modues/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/api/modues/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/workflows/VerificationJSONResponseUsingPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/workflows/VerificationJSONResponseUsingPOJO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/workflows/verifyUserPostComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/workflows/verifyUserPostCommentEmailFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/api/modues/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/api/modues/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/api/modues/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/api/modues/Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/api/modues/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/api/modues/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/workflows/VerificationJSONResponseUsingPOJO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/workflows/VerificationJSONResponseUsingPOJO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/workflows/verifyUserPostComment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/workflows/verifyUserPostCommentEmailFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/workflows/verifyUserPostCommentEmailFormat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,23 +284,31 @@
       <option name="project" value="LOCAL" />
       <updated>1576631509548</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="complete post and comment scenarios">
+      <created>1576685188019</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576685188019</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="config.yml" />
     <MESSAGE value="test merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="test merge" />
+    <MESSAGE value="complete post and comment scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete post and comment scenarios" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="88" width="962" height="614" key="#xdebugger.evaluate" timestamp="1576682961973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="418" y="88" width="962" height="614" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1576682961973" />
-    <state x="436" y="10" key="CommitChangelistDialog2" timestamp="1576631506592">
+    <state x="436" y="10" key="CommitChangelistDialog2" timestamp="1576685185492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="436" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576631506592" />
+    <state x="436" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576685185492" />
     <state width="822" height="466" key="DebuggerActiveHint" timestamp="1576682967628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -365,10 +361,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576597185039" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1576631512348">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1576685192616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576631512348" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576685192616" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1576633428007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -26,8 +26,8 @@ public class verifyUserPostCommentEmailFormat extends Master {
         testdata=getTestDataFromXML(this.getClass().getSimpleName());
     }
 
-    @Test(testName = "verificationOfPostComment", description = "verify post comment of a user named as 'Samantha'")
-    public void postCommentVerification() throws Exception {
+    @Test(testName = "verificationOfUserPostCommentEmailAddressFormat", description = "verify email address format of posted comment of a user named as 'Samantha'")
+    public void commentEmailVerification() throws Exception {
 
         /**
          * Get user id corresponding to user name
