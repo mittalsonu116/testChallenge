@@ -45,6 +45,7 @@ public class Master {
      */
     @BeforeSuite
     public void suiteSetup() throws FileNotFoundException {
+        ExtentReporter.deleteExtentReport();
         curDir = System.getProperty("user.dir");
         configData = new PropertiesFileController().readConfigFileData();
         portalSpec = new RequestSpecBuilder().setBaseUri(configData.get("PORTAL_BASE_HOST")).build();

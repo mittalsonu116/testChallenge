@@ -21,6 +21,16 @@ public class ExtentReporter {
     }
 
     /**
+     * Function to delete the old extent html report
+     */
+    public static void deleteExtentReport(){
+        File file=new File(System.getProperty("user.dir")+File.separator+"ExtentReports"+File.separator+"ExtentReportResults.html");
+        if(file.exists()){
+            file.delete();
+        }
+    }
+
+    /**
      * Function to clean the extent reporter instance
      */
     public static void cleanExtentReport(){

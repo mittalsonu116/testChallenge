@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f34f11ce-2e3f-4612-95b6-77bcfbbd2ff2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestAssuredLogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLogs.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/api/Master.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/api/Master.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/api/Master.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/api/Master.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/api/modues/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/api/modues/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/workflows/VerificationJSONResponseUsingPOJO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/workflows/VerificationJSONResponseUsingPOJO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/workflows/variousUserFieldVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/workflows/variousUserFieldVerification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/workflows/verifyJsonPlaceHolderResourceCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/workflows/verifyJsonPlaceHolderResourceCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/utils/Reporter/ExtentReporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/utils/Reporter/ExtentReporter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +57,7 @@
       <recent name="D:\TestChallenge\src\test\Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.E:/TestChallenge/testng.xml">
+  <component name="RunManager" selected="TestNG.verifyJsonPlaceHolderResourceCount">
     <configuration name="E:/TestChallenge/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestChallenge" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -197,11 +192,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.verifyJsonPlaceHolderResourceCount" />
         <item itemvalue="TestNG.E:/TestChallenge/testng.xml" />
         <item itemvalue="TestNG.variousUserFieldVerification" />
         <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO" />
         <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.test" />
-        <item itemvalue="TestNG.verifyJsonPlaceHolderResourceCount" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577508809394</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Correct testng annotation from @AfterTest to @Aftersuite and commit extent report html file">
+      <created>1577511472387</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577511472387</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -314,17 +316,18 @@
     <MESSAGE value="complete post and comment scenarios" />
     <MESSAGE value="updated email address verification script" />
     <MESSAGE value="Implemented Extent Reporter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Extent Reporter" />
+    <MESSAGE value="Correct testng annotation from @AfterTest to @Aftersuite and commit extent report html file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct testng annotation from @AfterTest to @Aftersuite and commit extent report html file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="88" width="962" height="614" key="#xdebugger.evaluate" timestamp="1576682961973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="418" y="88" width="962" height="614" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1576682961973" />
-    <state x="436" y="10" key="CommitChangelistDialog2" timestamp="1577508807396">
+    <state x="436" y="10" key="CommitChangelistDialog2" timestamp="1577511470810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="436" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577508807396" />
+    <state x="436" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577511470810" />
     <state width="822" height="466" key="DebuggerActiveHint" timestamp="1576682967628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -337,22 +340,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="518" y="112" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576597115240" />
-    <state width="1493" height="355" key="GridCell.Tab.0.bottom" timestamp="1577510425651">
+    <state width="1493" height="355" key="GridCell.Tab.0.bottom" timestamp="1577514455660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="355" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577510425651" />
-    <state width="1493" height="355" key="GridCell.Tab.0.center" timestamp="1577510425651">
+    <state width="1493" height="355" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577514455660" />
+    <state width="1493" height="355" key="GridCell.Tab.0.center" timestamp="1577514455659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="355" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577510425651" />
-    <state width="1493" height="355" key="GridCell.Tab.0.left" timestamp="1577510425651">
+    <state width="1493" height="355" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577514455659" />
+    <state width="1493" height="355" key="GridCell.Tab.0.left" timestamp="1577514455659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="355" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577510425651" />
-    <state width="1493" height="355" key="GridCell.Tab.0.right" timestamp="1577510425651">
+    <state width="1493" height="355" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577514455659" />
+    <state width="1493" height="355" key="GridCell.Tab.0.right" timestamp="1577514455659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="355" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577510425651" />
+    <state width="1493" height="355" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577514455659" />
     <state width="1493" height="233" key="GridCell.Tab.1.bottom" timestamp="1577188866723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -377,10 +380,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576597185039" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1577508812906">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1577511474487">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577508812906" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577511474487" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1576633428007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
