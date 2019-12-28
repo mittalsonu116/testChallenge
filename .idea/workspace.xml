@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34f11ce-2e3f-4612-95b6-77bcfbbd2ff2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/utils/Reporter/ExtentReporter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestAssuredLogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLogs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/api/Master.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/api/Master.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/api/modues/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/api/modues/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/utils/CommonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/tests/sampleTestForUnitTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/tests/sampleTestForUnitTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/workflows/VerificationJSONResponseUsingPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/workflows/VerificationJSONResponseUsingPOJO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/workflows/variousUserFieldVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/workflows/variousUserFieldVerification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/workflows/verifyJsonPlaceHolderResourceCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/workflows/verifyJsonPlaceHolderResourceCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/workflows/verifyUserPostCommentEmailFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/workflows/verifyUserPostCommentEmailFormat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/core/api/Master.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/api/Master.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/utils/CommonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/utils/CommonUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/tests/sampleTestForUnitTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/tests/sampleTestForUnitTesting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/workflows/verifyUserPostCommentEmailFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/workflows/verifyUserPostCommentEmailFormat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/api/modues/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/api/modues/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/workflows/VerificationJSONResponseUsingPOJO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/workflows/VerificationJSONResponseUsingPOJO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/workflows/variousUserFieldVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/workflows/variousUserFieldVerification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/workflows/verifyJsonPlaceHolderResourceCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/workflows/verifyJsonPlaceHolderResourceCount.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +62,24 @@
       <recent name="D:\TestChallenge\src\test\Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.variousUserFieldVerification">
+  <component name="RunManager" selected="TestNG.E:/TestChallenge/testng.xml">
+    <configuration name="E:/TestChallenge/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestChallenge" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VerificationJSONResponseUsingPOJO" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestChallenge" />
       <extension name="coverage">
@@ -180,43 +188,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="verifyUserPostCommentEmailFormat" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.workflows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="api.workflows" />
-      <option name="MAIN_CLASS_NAME" value="api.workflows.verifyUserPostCommentEmailFormat" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.verifyJsonPlaceHolderResourceCount" />
-      <item itemvalue="TestNG.verifyUserPostCommentEmailFormat" />
       <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO" />
       <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.test" />
       <item itemvalue="TestNG.variousUserFieldVerification" />
+      <item itemvalue="TestNG.E:/TestChallenge/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E:/TestChallenge/testng.xml" />
         <item itemvalue="TestNG.variousUserFieldVerification" />
         <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO" />
         <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.test" />
         <item itemvalue="TestNG.verifyJsonPlaceHolderResourceCount" />
-        <item itemvalue="TestNG.verifyUserPostCommentEmailFormat" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576724392812</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implemented Extent Reporter">
+      <created>1577508809394</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577508809394</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -321,17 +313,18 @@
     <MESSAGE value="test merge" />
     <MESSAGE value="complete post and comment scenarios" />
     <MESSAGE value="updated email address verification script" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated email address verification script" />
+    <MESSAGE value="Implemented Extent Reporter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Extent Reporter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="88" width="962" height="614" key="#xdebugger.evaluate" timestamp="1576682961973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="418" y="88" width="962" height="614" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1576682961973" />
-    <state x="436" y="10" key="CommitChangelistDialog2" timestamp="1576724391586">
+    <state x="436" y="10" key="CommitChangelistDialog2" timestamp="1577508807396">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="436" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576724391586" />
+    <state x="436" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577508807396" />
     <state width="822" height="466" key="DebuggerActiveHint" timestamp="1576682967628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -344,22 +337,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="518" y="112" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1576597115240" />
-    <state width="1493" height="355" key="GridCell.Tab.0.bottom" timestamp="1577508722344">
+    <state width="1493" height="355" key="GridCell.Tab.0.bottom" timestamp="1577510425651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="355" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577508722344" />
-    <state width="1493" height="355" key="GridCell.Tab.0.center" timestamp="1577508722344">
+    <state width="1493" height="355" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577510425651" />
+    <state width="1493" height="355" key="GridCell.Tab.0.center" timestamp="1577510425651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="355" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577508722344" />
-    <state width="1493" height="355" key="GridCell.Tab.0.left" timestamp="1577508722343">
+    <state width="1493" height="355" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577510425651" />
+    <state width="1493" height="355" key="GridCell.Tab.0.left" timestamp="1577510425651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="355" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577508722343" />
-    <state width="1493" height="355" key="GridCell.Tab.0.right" timestamp="1577508722344">
+    <state width="1493" height="355" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577510425651" />
+    <state width="1493" height="355" key="GridCell.Tab.0.right" timestamp="1577510425651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="355" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577508722344" />
+    <state width="1493" height="355" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577510425651" />
     <state width="1493" height="233" key="GridCell.Tab.1.bottom" timestamp="1577188866723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -384,10 +377,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576597185039" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1576724394458">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1577508812906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1576724394458" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577508812906" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1576633428007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -8,7 +8,7 @@ import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.config.LogConfig;
 import io.restassured.specification.RequestSpecification;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -55,7 +55,7 @@ public class Master {
     /**
      * Set up data required after execution of suite
      */
-    @AfterTest
+    @AfterSuite
     public void tearDownSuite(){
         ExtentReporter.cleanExtentReport();
     }
