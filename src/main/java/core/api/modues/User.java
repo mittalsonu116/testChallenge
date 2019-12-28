@@ -1,5 +1,7 @@
 package core.api.modues;
 
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 import core.api.EndPoints;
 import core.api.Master;
 import core.utils.ReusableMethods;
@@ -137,5 +139,17 @@ public class User extends Master {
     public static GetUsersPOJO[] getUserResponse(){
         return new ReusableMethods(portalSpec).getByPOJO(EndPoints.USER)
                 .as(GetUsersPOJO[].class);
+    }
+
+    /**
+     * Function to print invalid zip code
+     * @param invalidZipCodes
+     * @param extentTest
+     */
+    public static void printInvalidZipCode(List<String> invalidZipCodes, ExtentTest extentTest){
+        if(invalidZipCodes.size() == 0)
+            extentTest.log(LogStatus.INFO,"There is no invalid Zip Code present");
+        else
+            extentTest.log(LogStatus.INFO,"Invalid Zip Code are: "+invalidZipCodes);
     }
 }

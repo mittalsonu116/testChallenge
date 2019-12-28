@@ -1,10 +1,14 @@
 package core.api;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import core.utils.PropertiesFileController;
+import core.utils.Reporter.ExtentReporter;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.config.LogConfig;
 import io.restassured.specification.RequestSpecification;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -26,10 +30,15 @@ import static io.restassured.config.RestAssuredConfig.config;
 
 public class Master {
 
+    //Util data
     protected HashMap<String,String> testdata=null;
     protected static String curDir;
     protected static Map<String,String> configData;
     protected static RequestSpecification portalSpec;
+
+    //Extent Test
+    protected static ExtentReports extentReports;
+    protected ExtentTest extentTest;
 
     /**
      * Set up data required before execution of suite
@@ -39,7 +48,16 @@ public class Master {
         curDir = System.getProperty("user.dir");
         configData = new PropertiesFileController().readConfigFileData();
         portalSpec = new RequestSpecBuilder().setBaseUri(configData.get("PORTAL_BASE_HOST")).build();
+        extentReports= ExtentReporter.initReporter();
         RestAssured.config = config().logConfig(new LogConfig().defaultStream(new PrintStream(new File("RestAssuredLogs.log"))));
+    }
+
+    /**
+     * Set up data required after execution of suite
+     */
+    @AfterTest
+    public void tearDownSuite(){
+        ExtentReporter.cleanExtentReport();
     }
 
     /**

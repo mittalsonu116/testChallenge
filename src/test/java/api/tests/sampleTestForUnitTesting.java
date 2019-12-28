@@ -20,6 +20,6 @@ public class sampleTestForUnitTesting {
         map.put("1","ejhsdsdfcds");
         map.put("2","sonu@gmail.com");
 
-        printInvalidEmail(checkEmailFormat(map));
+        //printInvalidEmail(checkEmailFormat(map));
     }
 }

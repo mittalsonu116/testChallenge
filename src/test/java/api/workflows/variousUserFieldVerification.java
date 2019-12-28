@@ -1,9 +1,11 @@
 package api.workflows;
 
+import com.relevantcodes.extentreports.LogStatus;
 import core.api.Master;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.util.List;
@@ -14,15 +16,22 @@ public class variousUserFieldVerification extends Master {
 
     private List<String> phoneNumberListOfUsers,invalidPhoneNumber,zipCodeOfUser,invalidZipCodes;
 
+    @BeforeTest(alwaysRun = true)
+    public void beforeTest(){
+        extentTest=extentReports.startTest(this.getClass().getSimpleName());
+        extentTest.setDescription("Workflow to validate correctness of user's field like phone number, zip code");
+    }
+
     @Test(testName = "ValidationOnUserFields",description = "verify user's phone number format")
-    public void test()throws Exception {
+    public void test() {
         checkUserPhoneNumberFormat();
         checkAddressZipCode();
     }
 
     @AfterTest(alwaysRun = true)
-    public void aftertest(){
+    public void afterTest(){
         Reporter.getCurrentTestResult();
+        extentReports.endTest(extentTest);
     }
 
     /**
@@ -32,7 +41,7 @@ public class variousUserFieldVerification extends Master {
         phoneNumberListOfUsers=getUserPhoneNumberList();
         Assert.assertNotNull(phoneNumberListOfUsers,"List of phone number is empty");
         invalidPhoneNumber=checkPhoneNumberCorrectness(phoneNumberListOfUsers);
-        System.out.println(invalidPhoneNumber);
+        extentTest.log(LogStatus.INFO,"Invalid phone numbers are: "+invalidPhoneNumber);
         Reporter.log("phone number format checking completed...");
     }
 
@@ -43,7 +52,7 @@ public class variousUserFieldVerification extends Master {
         zipCodeOfUser=getUserZipCodeList();
         Assert.assertNotNull(zipCodeOfUser,"List of zip code is empty");
         invalidZipCodes=checkZipCodeCorrectness(zipCodeOfUser);
-        System.out.println(invalidZipCodes);
+        printInvalidZipCode(invalidZipCodes,extentTest);
         Reporter.log("zip code format checking completed...");
     }
 }
