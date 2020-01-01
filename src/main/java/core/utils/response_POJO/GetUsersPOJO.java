@@ -1,17 +1,15 @@
 package core.utils.response_POJO;
 
-import java.util.List;
-
 public class GetUsersPOJO {
 
     private String id;
     private String name;
     private String username;
     private String email;
-    private List<GetAddressPOJO> address;
+    private GetAddressPOJO address;
     private String phone;
     private String website;
-    private List<GetCompanyPOJO> company;
+    private GetCompanyPOJO company;
 
     public String getId() {
         return id;
@@ -45,11 +43,11 @@ public class GetUsersPOJO {
         this.email = email;
     }
 
-    public List<GetAddressPOJO> getAddress() {
+    public GetAddressPOJO getAddress() {
         return address;
     }
 
-    public void setAddress(List<GetAddressPOJO> address) {
+    public void setAddress(GetAddressPOJO address) {
         this.address = address;
     }
 
@@ -69,11 +67,11 @@ public class GetUsersPOJO {
         this.website = website;
     }
 
-    public List<GetCompanyPOJO> getCompany() {
+    public GetCompanyPOJO getCompany() {
         return company;
     }
 
-    public void setCompany(List<GetCompanyPOJO> company) {
+    public void setCompany(GetCompanyPOJO company) {
         this.company = company;
     }
 }

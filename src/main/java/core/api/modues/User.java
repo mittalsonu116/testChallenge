@@ -136,9 +136,9 @@ public class User extends Master {
     /**
      * Function to fetch response through POJO classes
      */
-    public static GetUsersPOJO[] getUserResponse(){
-        return new ReusableMethods(portalSpec).getByPOJO(EndPoints.USER)
-                .as(GetUsersPOJO[].class);
+    public static List<GetUsersPOJO> getUserResponse(){
+        return Arrays.asList(new ReusableMethods(portalSpec).getByPOJO(EndPoints.USER)
+                .as(GetUsersPOJO[].class));
     }
 
     /**

@@ -1,14 +1,12 @@
 package core.utils.response_POJO;
 
-import java.util.List;
-
 public class GetAddressPOJO {
 
     private String street;
     private String suite;
     private String city;
     private String zipcode;
-    private List<GetGeoPOJO> geo;
+    private GetGeoPOJO geo;
 
     public String getStreet() {
         return street;
@@ -34,19 +32,19 @@ public class GetAddressPOJO {
         this.city = city;
     }
 
-    public String getZipcode() {
+    public String getZipCode() {
         return zipcode;
     }
 
-    public void setZipcode(String zipcode) {
-        this.zipcode = zipcode;
+    public void setZipCode(String zip_code) {
+        this.zipcode = zip_code;
     }
 
-    public List<GetGeoPOJO> getGeo() {
+    public GetGeoPOJO getGeo() {
         return geo;
     }
 
-    public void setGeo(List<GetGeoPOJO> geo) {
+    public void setGeo(GetGeoPOJO geo) {
         this.geo = geo;
     }
 }

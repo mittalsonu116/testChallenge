@@ -4,15 +4,22 @@ import com.relevantcodes.extentreports.LogStatus;
 import core.api.Master;
 import core.utils.response_POJO.*;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static core.api.modues.Comment.*;
 import static core.api.modues.Post.*;
 import static core.api.modues.User.*;
 
 public class VerificationJSONResponseUsingPOJO extends Master {
+
+    private List<String> invalidZipCodes;
+    private List<String> zipCodeOfUser = new ArrayList<>();
 
     @BeforeTest(alwaysRun = true)
     public void beforeTest(){
@@ -22,7 +29,7 @@ public class VerificationJSONResponseUsingPOJO extends Master {
 
     @Test(testName = "ValidationOnPostAndCommentFields",description = "verify field property of user, post and comment")
     public void test() throws Exception {
-        //validationOnUserResponse();
+        validationOnUserResponse();
         validationOnPostResponse();
         validationOnCommentResponse();
     }
@@ -30,6 +37,20 @@ public class VerificationJSONResponseUsingPOJO extends Master {
     @AfterTest(alwaysRun = true)
     public void afterTest(){
         extentReports.endTest(extentTest);
+    }
+
+    /**
+     * Apply validations on user's attributes by using POJO classes
+     */
+    private void validationOnUserResponse() {
+        List<GetUsersPOJO> users=getUserResponse();
+
+        for(GetUsersPOJO user:users) {
+            zipCodeOfUser.add(user.getAddress().getZipCode());
+        }
+        invalidZipCodes=checkZipCodeCorrectness(zipCodeOfUser);
+        printInvalidZipCode(invalidZipCodes,extentTest);
+        Reporter.log("zip code format checking completed...");
     }
 
     /**
@@ -41,8 +62,6 @@ public class VerificationJSONResponseUsingPOJO extends Master {
         extentTest.log(LogStatus.INFO,"User's post ids are unique");
         Assert.assertTrue(compareUserIDInPostResponse(posts,getUserIDList()),"User id mismatch with post response");
         extentTest.log(LogStatus.INFO,"User id matched in user and post api response");
-/*        for (GetPostsPOJO post:posts)
-            System.out.println(post.getId()+" : "+post.getTitle()+" : "+post.getUserId()+" : "+post.getBody());*/
     }
 
     /**
@@ -54,22 +73,5 @@ public class VerificationJSONResponseUsingPOJO extends Master {
         extentTest.log(LogStatus.INFO,"Comment ids are unique, posted by user");
         Assert.assertTrue(comparePostIDInCommentResponse(comments,getPostIDList()),"User id mismatch with post response");
         extentTest.log(LogStatus.INFO,"Comment id matched in post and comment api response");
-        /*for (GetCommentsPOJO comment:comments)
-            System.out.println(comment.getId()+" : "+comment.getPostId()+" : "+comment.getEmail()+" : "+comment.getName()+" : "+comment.getBody());*/
-    }
-
-    /**
-     * Apply validations on user's attributes by using POJO classes
-     */
-    private void validationOnUserResponse() {
-        GetUsersPOJO[] users=getUserResponse();
-
-        for(GetUsersPOJO u:users) {
-            for (GetAddressPOJO user : u.getAddress()) {
-                for (GetGeoPOJO geo : user.getGeo()) {
-                    System.out.println(geo.getLat());
-                }
-            }
-        }
     }
 }
