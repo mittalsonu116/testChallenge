@@ -4,7 +4,6 @@ import core.api.EndPoints;
 import core.api.Master;
 import core.utils.ReusableMethods;
 import core.utils.response_POJO.GetCommentsPOJO;
-import core.utils.response_POJO.GetPostsPOJO;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 
