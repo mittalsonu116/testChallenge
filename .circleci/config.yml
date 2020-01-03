@@ -39,4 +39,5 @@ jobs:
 
       # run tests!
       #- run: mvn integration-test
+      - run: mvn -version
       - run: mvn clean test -DsuiteXmlFile=testng.xml

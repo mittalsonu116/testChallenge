@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="b1a795621cd4b92cc28d18c9adbd01e96c7c4937" />
+        <entry key="$PROJECT_DIR$" value="f1cfb3a9da2f65970d524c2f06c311fc674af0dc" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,21 +56,15 @@
       <recent name="D:\TestChallenge\src\test\Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VerificationJSONResponseUsingPOJO.test">
-    <configuration name="VerificationJSONResponseUsingPOJO (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.testng.xml">
+    <configuration name="D:/TestChallenge/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.workflows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="api.workflows" />
-      <option name="MAIN_CLASS_NAME" value="api.workflows.VerificationJSONResponseUsingPOJO" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
@@ -80,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerificationJSONResponseUsingPOJO (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerificationJSONResponseUsingPOJO (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestChallenge" />
       <extension name="coverage">
         <pattern>
@@ -117,29 +111,6 @@
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerificationJSONResponseUsingPOJO.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.workflows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="api.workflows" />
-      <option name="MAIN_CLASS_NAME" value="api.workflows.VerificationJSONResponseUsingPOJO" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
@@ -188,20 +159,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testng.xml" type="TestNG" temporary="true">
+      <module name="TestChallenge" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="D:\TestChallenge" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO (1)" />
+      <item itemvalue="TestNG.testng.xml" />
+      <item itemvalue="TestNG.D:/TestChallenge/testng.xml" />
       <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO" />
       <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.validationOnPostResponse" />
-      <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.test" />
-      <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO (2)" />
+      <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.test" />
-        <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO (2)" />
         <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO (1)" />
         <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO.validationOnPostResponse" />
         <item itemvalue="TestNG.VerificationJSONResponseUsingPOJO" />
+        <item itemvalue="TestNG.D:/TestChallenge/testng.xml" />
+        <item itemvalue="TestNG.testng.xml" />
       </list>
     </recent_temporary>
   </component>
