@@ -22,7 +22,7 @@ public class variousUserFieldVerification extends Master {
         extentTest.setDescription("Workflow to validate correctness of user's field like phone number, zip code");
     }
 
-    @Test(testName = "ValidationOnUserFields",description = "verify user's phone number format")
+    @Test(testName = "ValidationOnUserFields",description = "verify user's phone number and zip code format")
     public void test() {
         checkUserPhoneNumberFormat();
         checkAddressZipCode();
@@ -30,7 +30,7 @@ public class variousUserFieldVerification extends Master {
 
     @AfterTest(alwaysRun = true)
     public void afterTest(){
-        Reporter.getCurrentTestResult();
+        //Reporter.getCurrentTestResult();
         extentReports.endTest(extentTest);
     }
 

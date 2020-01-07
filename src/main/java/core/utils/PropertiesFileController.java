@@ -13,7 +13,7 @@ public class PropertiesFileController {
     private Map<String,String> configData = new HashMap<>();
 
     /**
-     * Function to fetch user id from user json list
+     * Function to load configuration data into map object
      * @return Map<String,String>
      */
     public Map<String,String> readConfigFileData() {

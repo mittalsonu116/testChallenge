@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f34f11ce-2e3f-4612-95b6-77bcfbbd2ff2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/api/Master.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/api/Master.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/api/modues/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/api/modues/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/api/modues/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/api/modues/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/utils/PropertiesFileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/utils/PropertiesFileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/utils/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/utils/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/workflows/variousUserFieldVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/workflows/variousUserFieldVerification.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -384,7 +390,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578022032905</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="circleci test">
+      <created>1578022479177</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1578022479177</updated>
+    </task>
+    <task id="LOCAL-00026" summary="circleci test">
+      <created>1578022590957</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1578022590957</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -405,10 +425,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="418" y="88" width="962" height="614" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1577529679653" />
-    <state x="357" y="10" key="CommitChangelistDialog2" timestamp="1578022478006">
+    <state x="357" y="10" key="CommitChangelistDialog2" timestamp="1578022590004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="357" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578022478006" />
+    <state x="357" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578022590004" />
     <state width="822" height="466" key="DebuggerActiveHint" timestamp="1577899595301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -461,18 +481,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576597185039" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1578022481164">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1578022592872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578022481164" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578022592872" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1576633428007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1576633428007" />
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1578016372818">
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1578328991719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578016372818" />
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578328991719" />
     <state x="550" y="128" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576599588698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

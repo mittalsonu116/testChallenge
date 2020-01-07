@@ -4,7 +4,6 @@ import core.api.EndPoints;
 import core.api.Master;
 import core.utils.ReusableMethods;
 import core.utils.response_POJO.GetPostsPOJO;
-import core.utils.response_POJO.GetUsersPOJO;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 
@@ -13,7 +12,7 @@ import java.util.*;
 public class Post extends Master {
 
     /**
-     * Function to fetch user id from user json list
+     * Function to fetch post id's corresponding to user id from user json list
      * @param userId
      * @return Set<String>
      */

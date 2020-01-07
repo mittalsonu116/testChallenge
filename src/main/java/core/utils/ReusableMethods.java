@@ -61,7 +61,7 @@ public class ReusableMethods {
                 requestSpecification.expect().defaultParser(Parser.JSON).
                         when().
                         get(url);
-        response.then().log().all().extract().response().asString();
+        //response.then().log().all().extract().response().asString();
         return response;
     }
 }

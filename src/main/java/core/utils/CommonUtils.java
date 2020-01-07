@@ -8,7 +8,7 @@ import java.util.List;
 public class CommonUtils {
 
     /**
-     * Function to fetch user id from user json list
+     * Function to check for invalid emails, prints invalid email(s) if present otherwise give message via extent reporter
      * @param invalidEmails
      */
     public static void printInvalidEmail(List<String> invalidEmails, ExtentTest extentTest) {

@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 public class Comment extends Master {
 
     /**
-     * Function to fetch user's id and email address from user json list
+     * Function to fetch user's comment id and email address from user json list
      * @param postids
      * @return Map<String,String>
      */
@@ -104,7 +104,7 @@ public class Comment extends Master {
     }
 
     /**
-     *
+     * Function to compare post id in comment response
      */
     public static boolean comparePostIDInCommentResponse(GetCommentsPOJO[] comments,List<String> postID){
         boolean flag=false;

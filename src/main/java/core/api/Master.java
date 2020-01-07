@@ -83,7 +83,7 @@ public class Master {
                 for(int j=0;j<paramNodeList.getLength();j++){
                     Element ele;
                     Node paramNode=paramNodeList.item(j);
-                    if(paramNodeList.item(j).getNodeType()==1){
+                    if(paramNodeList.item(j).getNodeType()==Node.ELEMENT_NODE){
                         ele = (Element)paramNode;
                         testDataKey = ele.getAttribute("key");
                         testDataValue = ele.getAttribute("value");
