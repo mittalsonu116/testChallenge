@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34f11ce-2e3f-4612-95b6-77bcfbbd2ff2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -404,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578363335767</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="update circleci config file">
+      <created>1578450613621</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1578450613621</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -419,17 +427,18 @@
     <MESSAGE value="implemented complex user response json using pojo classes, handle json array/list" />
     <MESSAGE value="circleci test" />
     <MESSAGE value="optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimization" />
+    <MESSAGE value="update circleci config file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update circleci config file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="88" width="962" height="614" key="#xdebugger.evaluate" timestamp="1577529679653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="418" y="88" width="962" height="614" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1577529679653" />
-    <state x="357" y="10" key="CommitChangelistDialog2" timestamp="1578363333879">
+    <state x="357" y="10" key="CommitChangelistDialog2" timestamp="1578450611992">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="357" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578363333879" />
+    <state x="357" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578450611992" />
     <state width="822" height="466" key="DebuggerActiveHint" timestamp="1577899595301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -482,10 +491,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576597185039" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1578363339147">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1578450617489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578363339147" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578450617489" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1576633428007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
