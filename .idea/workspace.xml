@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34f11ce-2e3f-4612-95b6-77bcfbbd2ff2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAssuredLogs.log" beforeDir="false" afterPath="$PROJECT_DIR$/RestAssuredLogs.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="c9a8f897d0103661ef31d0cf920be079651a6a90" />
+        <entry key="$PROJECT_DIR$" value="5378ef4f11082d92fed3af5fd577d01c658d3d27" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -412,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578450613621</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="update circleci config file">
+      <created>1578450775310</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1578450775310</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -499,10 +506,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1576633428007" />
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1578450275822">
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1578537484315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578450275822" />
+    <state x="477" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578537484315" />
     <state x="550" y="128" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576599588698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
