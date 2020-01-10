@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 public class Comment extends Master {
 
     /**
-     * Function to fetch user's comment id and email address from user json list
+     * Function to fetch user's comment id and email address from comment json response corresponding to post ids
      * @param postids
      * @return Map<String,String>
      */

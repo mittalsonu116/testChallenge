@@ -36,8 +36,8 @@ public class GetAddressPOJO {
         return zipcode;
     }
 
-    public void setZipCode(String zip_code) {
-        this.zipcode = zip_code;
+    public void setZipCode(String zipcode) {
+        this.zipcode = zipcode;
     }
 
     public GetGeoPOJO getGeo() {
