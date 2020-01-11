@@ -1,6 +1,6 @@
 package core.utils.response_POJO;
 
-public class GetPostsPOJO {
+public class Post {
 
     private String userId;
     private String id;

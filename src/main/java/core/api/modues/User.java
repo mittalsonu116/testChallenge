@@ -5,7 +5,6 @@ import com.relevantcodes.extentreports.LogStatus;
 import core.api.EndPoints;
 import core.api.Master;
 import core.utils.ReusableMethods;
-import core.utils.response_POJO.GetUsersPOJO;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 
@@ -136,9 +135,9 @@ public class User extends Master {
     /**
      * Function to fetch response through POJO classes
      */
-    public static List<GetUsersPOJO> getUserResponse(){
+    public static List<core.utils.response_POJO.User> getUserResponse(){
         return Arrays.asList(new ReusableMethods(portalSpec).getByPOJO(EndPoints.USER)
-                .as(GetUsersPOJO[].class));
+                .as(core.utils.response_POJO.User[].class));
     }
 
     /**

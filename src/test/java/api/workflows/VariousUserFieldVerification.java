@@ -12,7 +12,7 @@ import java.util.List;
 
 import static core.api.modues.User.*;
 
-public class variousUserFieldVerification extends Master {
+public class VariousUserFieldVerification extends Master {
 
     private List<String> phoneNumberListOfUsers,invalidPhoneNumber,zipCodeOfUser,invalidZipCodes;
 

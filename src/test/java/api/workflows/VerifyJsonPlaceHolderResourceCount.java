@@ -14,12 +14,12 @@ import static core.api.modues.Post.checkPostCount;
 import static core.api.modues.Todo.checkTodoCount;
 import static core.api.modues.User.checkUserCount;
 
-public class verifyJsonPlaceHolderResourceCount extends Master {
+public class VerifyJsonPlaceHolderResourceCount extends Master {
 
     /**
      * Using default constructor to parse test script xml file test data into hash-map reference
      */
-    public verifyJsonPlaceHolderResourceCount(){
+    public VerifyJsonPlaceHolderResourceCount(){
         super();
         testdata=getTestDataFromXML(this.getClass().getSimpleName());
     }

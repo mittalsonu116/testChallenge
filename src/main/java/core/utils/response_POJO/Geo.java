@@ -1,6 +1,6 @@
 package core.utils.response_POJO;
 
-public class GetGeoPOJO {
+public class Geo {
 
     private String lat;
     private String lng;

@@ -12,7 +12,7 @@ import static core.utils.CommonUtils.printInvalidEmail;
  * this class created for unit test purpose. please don't refer this.
  */
 
-public class sampleTestForUnitTesting {
+public class SampleTestForUnitTesting {
     Map<String,String> map=new LinkedHashMap<>();
 
     @Test

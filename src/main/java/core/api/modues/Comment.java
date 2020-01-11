@@ -3,7 +3,6 @@ package core.api.modues;
 import core.api.EndPoints;
 import core.api.Master;
 import core.utils.ReusableMethods;
-import core.utils.response_POJO.GetCommentsPOJO;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 
@@ -84,18 +83,18 @@ public class Comment extends Master {
     /**
      * Function to fetch response through POJO classes
      */
-    public static GetCommentsPOJO[] getCommentResponse(){
+    public static core.utils.response_POJO.Comment[] getCommentResponse(){
         return new ReusableMethods(portalSpec).getByPOJO(EndPoints.COMMENT)
-                .as(GetCommentsPOJO[].class);
+                .as(core.utils.response_POJO.Comment[].class);
     }
 
     /**
      * Function to check uniqueness of comment id
      */
-    public static boolean checkCommentIDUniqueness(GetCommentsPOJO[] comments){
+    public static boolean checkCommentIDUniqueness(core.utils.response_POJO.Comment[] comments){
         boolean flag=false;
         List<String> commentId= new ArrayList();
-        for (GetCommentsPOJO comment:comments)
+        for (core.utils.response_POJO.Comment comment:comments)
             commentId.add(comment.getId());
         Set<String> idSet=new HashSet<>(commentId);
         if(commentId.size()==idSet.size())
@@ -106,10 +105,10 @@ public class Comment extends Master {
     /**
      * Function to compare post id in comment response
      */
-    public static boolean comparePostIDInCommentResponse(GetCommentsPOJO[] comments,List<String> postID){
+    public static boolean comparePostIDInCommentResponse(core.utils.response_POJO.Comment[] comments, List<String> postID){
         boolean flag=false;
         Set<String> postId=new HashSet<>();
-        for (GetCommentsPOJO comment:comments)
+        for (core.utils.response_POJO.Comment comment:comments)
             postId.add(comment.getPostId());
         List<String> postIdList=new ArrayList<>(postId);
         if(postIdList.equals(postID));

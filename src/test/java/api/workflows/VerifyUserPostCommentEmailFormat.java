@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class verifyUserPostCommentEmailFormat extends Master {
+public class VerifyUserPostCommentEmailFormat extends Master {
 
     private String user_id;
     private Set<String> post_ids;
@@ -25,7 +25,7 @@ public class verifyUserPostCommentEmailFormat extends Master {
     /**
      * Using default constructor to parse test script xml file test data into hash-map reference
      */
-    public verifyUserPostCommentEmailFormat(){
+    public VerifyUserPostCommentEmailFormat(){
         super();
         testdata=getTestDataFromXML(this.getClass().getSimpleName());
     }

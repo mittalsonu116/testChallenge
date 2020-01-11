@@ -43,9 +43,9 @@ public class VerificationJSONResponseUsingPOJO extends Master {
      * Apply validations on user's attributes by using POJO classes
      */
     private void validationOnUserResponse() {
-        List<GetUsersPOJO> users=getUserResponse();
+        List<User> users=getUserResponse();
 
-        for(GetUsersPOJO user:users) {
+        for(User user:users) {
             zipCodeOfUser.add(user.getAddress().getZipCode());
         }
         invalidZipCodes=checkZipCodeCorrectness(zipCodeOfUser);
@@ -57,7 +57,7 @@ public class VerificationJSONResponseUsingPOJO extends Master {
      * Apply validations on post's attributes by using POJO classes
      */
     private void validationOnPostResponse(){
-        GetPostsPOJO[] posts = getPostResponse();
+        Post[] posts = getPostResponse();
         Assert.assertTrue(checkPostIDUniqueness(posts),"Posts id attribute is not unique");
         extentTest.log(LogStatus.INFO,"User's post ids are unique");
         Assert.assertTrue(compareUserIDInPostResponse(posts,getUserIDList()),"User id mismatch with post response");
@@ -68,7 +68,7 @@ public class VerificationJSONResponseUsingPOJO extends Master {
      * Apply validations on comment's attributes by using POJO classes
      */
     private void validationOnCommentResponse(){
-        GetCommentsPOJO[] comments = getCommentResponse();
+        Comment[] comments = getCommentResponse();
         Assert.assertTrue(checkCommentIDUniqueness(comments),"Comments id attribute is not unique");
         extentTest.log(LogStatus.INFO,"Comment ids are unique, posted by user");
         Assert.assertTrue(comparePostIDInCommentResponse(comments,getPostIDList()),"User id mismatch with post response");

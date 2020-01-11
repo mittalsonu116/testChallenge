@@ -1,6 +1,6 @@
 package core.utils.response_POJO;
 
-public class GetCompanyPOJO {
+public class Company {
 
     private String name;
     private String catchPhrase;

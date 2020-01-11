@@ -3,7 +3,7 @@
 <suite name="FirstSuite" parallel="none" thread-count="1">
     <test name="CodingTest1" >
         <classes>
-            <class name="api.workflows.variousUserFieldVerification" />
+            <class name="api.workflows.VariousUserFieldVerification" />
         </classes>
     </test>
     <test name="CodingTest2" >
@@ -13,12 +13,12 @@
     </test>
     <test name="CodingTest3" >
         <classes>
-            <class name="api.workflows.verifyJsonPlaceHolderResourceCount" />
+            <class name="api.workflows.VerifyJsonPlaceHolderResourceCount" />
         </classes>
     </test>
     <test name="CodingTest4" >
         <classes>
-            <class name="api.workflows.verifyUserPostCommentEmailFormat" />
+            <class name="api.workflows.VerifyUserPostCommentEmailFormat" />
         </classes>
     </test>
 </suite>

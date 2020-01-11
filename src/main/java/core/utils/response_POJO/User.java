@@ -1,15 +1,15 @@
 package core.utils.response_POJO;
 
-public class GetUsersPOJO {
+public class User {
 
     private String id;
     private String name;
     private String username;
     private String email;
-    private GetAddressPOJO address;
+    private Address address;
     private String phone;
     private String website;
-    private GetCompanyPOJO company;
+    private Company company;
 
     public String getId() {
         return id;
@@ -43,11 +43,11 @@ public class GetUsersPOJO {
         this.email = email;
     }
 
-    public GetAddressPOJO getAddress() {
+    public Address getAddress() {
         return address;
     }
 
-    public void setAddress(GetAddressPOJO address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 
@@ -67,11 +67,11 @@ public class GetUsersPOJO {
         this.website = website;
     }
 
-    public GetCompanyPOJO getCompany() {
+    public Company getCompany() {
         return company;
     }
 
-    public void setCompany(GetCompanyPOJO company) {
+    public void setCompany(Company company) {
         this.company = company;
     }
 }

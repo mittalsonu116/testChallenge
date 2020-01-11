@@ -1,6 +1,6 @@
 package core.utils.response_POJO;
 
-public class GetCommentsPOJO {
+public class Comment {
 
     private String postId;
     private String id;

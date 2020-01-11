@@ -1,12 +1,12 @@
 package core.utils.response_POJO;
 
-public class GetAddressPOJO {
+public class Address {
 
     private String street;
     private String suite;
     private String city;
     private String zipcode;
-    private GetGeoPOJO geo;
+    private Geo geo;
 
     public String getStreet() {
         return street;
@@ -40,11 +40,11 @@ public class GetAddressPOJO {
         this.zipcode = zipcode;
     }
 
-    public GetGeoPOJO getGeo() {
+    public Geo getGeo() {
         return geo;
     }
 
-    public void setGeo(GetGeoPOJO geo) {
+    public void setGeo(Geo geo) {
         this.geo = geo;
     }
 }

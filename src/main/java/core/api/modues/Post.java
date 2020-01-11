@@ -3,7 +3,6 @@ package core.api.modues;
 import core.api.EndPoints;
 import core.api.Master;
 import core.utils.ReusableMethods;
-import core.utils.response_POJO.GetPostsPOJO;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 
@@ -57,18 +56,18 @@ public class Post extends Master {
     /**
      * Function to fetch response through POJO classes
      */
-    public static GetPostsPOJO[] getPostResponse(){
+    public static core.utils.response_POJO.Post[] getPostResponse(){
         return new ReusableMethods(portalSpec).getByPOJO(EndPoints.POST)
-                .as(GetPostsPOJO[].class);
+                .as(core.utils.response_POJO.Post[].class);
     }
 
     /**
      * Function to check uniqueness of post id
      */
-    public static boolean checkPostIDUniqueness(GetPostsPOJO[] posts){
+    public static boolean checkPostIDUniqueness(core.utils.response_POJO.Post[] posts){
         boolean flag=false;
         List<String> postId= new ArrayList();
-        for (GetPostsPOJO post:posts)
+        for (core.utils.response_POJO.Post post:posts)
             postId.add(post.getId());
         Set<String> idSet=new HashSet<>(postId);
         if(postId.size()==idSet.size())
@@ -79,10 +78,10 @@ public class Post extends Master {
     /**
      * Function to check user id in post response
      */
-    public static boolean compareUserIDInPostResponse(GetPostsPOJO[] posts,List<String> userID){
+    public static boolean compareUserIDInPostResponse(core.utils.response_POJO.Post[] posts, List<String> userID){
         boolean flag=false;
         Set<String> userId=new HashSet<>();
-        for (GetPostsPOJO post:posts)
+        for (core.utils.response_POJO.Post post:posts)
             userId.add(post.getUserId());
         List<String> userIdList=new ArrayList<>(userId);
         if(userIdList.equals(userID));
